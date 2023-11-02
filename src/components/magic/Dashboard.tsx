@@ -13,11 +13,11 @@ export default function Dashboard({ token, setToken }: LoginProps) {
       <Header />
       <div className="cards-container">
         <UserInfo token={token} setToken={setToken} />
-        <Spacer size={10} />
+        {/* <Spacer size={10} /> */}
         {/* <SendTransaction /> */}
-        <Spacer size={10} />
+        {/* <Spacer size={10} />
         <WalletMethods token={token} setToken={setToken} />
-        <Spacer size={15} />
+        <Spacer size={15} /> */}
       </div>
       {/* <DevLinks primary /> */}
     </div>
