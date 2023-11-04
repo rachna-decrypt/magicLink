@@ -170,7 +170,7 @@ ul {
   @apply flex items-center absolute w-full mt-[30px] mb-0 mx-auto bottom-10;
 }
 .wallet-method-container {
-  @apply text-left;
+  @apply text-center;
 }
 
 .wallet-method {

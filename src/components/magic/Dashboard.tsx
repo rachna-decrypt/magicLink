@@ -6,6 +6,7 @@ import { LoginProps } from '@/utils/types';
 import UserInfo from './cards/UserInfoCard';
 import DevLinks from './DevLinks';
 import Header from './Header';
+import RevealPrivateKey from './cards/RevealPrivateKey';
 
 export default function Dashboard({ token, setToken }: LoginProps) {
   return (
@@ -13,7 +14,8 @@ export default function Dashboard({ token, setToken }: LoginProps) {
       <Header />
       <div className="cards-container">
         <UserInfo token={token} setToken={setToken} />
-        {/* <Spacer size={10} /> */}
+        <Spacer size={10} />
+        <RevealPrivateKey />
         {/* <SendTransaction /> */}
         {/* <Spacer size={10} />
         <WalletMethods token={token} setToken={setToken} />
